@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1602B6CC9AB64B8C2EA33C30 /* Pods_Large.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6CCACB6FF296D19E96AA7C5 /* Pods_Large.framework */; };
+		28A88D1F2EB9080300997891 /* TianksuyFirea.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28A88D1E2EB9080300997891 /* TianksuyFirea.xcframework */; };
+		FE320F062EB3BA1B0021A365 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320EFA2EB3BA1B0021A365 /* AppDelegate.swift */; };
+		FE320F072EB3BA1B0021A365 /* Large.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE320EFD2EB3BA1B0021A365 /* Large.xcdatamodeld */; };
+		FE320F082EB3BA1B0021A365 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F022EB3BA1B0021A365 /* SceneDelegate.swift */; };
+		FE320F0A2EB3BA1B0021A365 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE320EFB2EB3BA1B0021A365 /* Assets.xcassets */; };
+		FE320F0C2EB3BA1B0021A365 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE320EFF2EB3BA1B0021A365 /* LaunchScreen.storyboard */; };
+		FE320F0D2EB3BA1B0021A365 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE320F012EB3BA1B0021A365 /* Main.storyboard */; };
+		FE320F0F2EB3BA2F0021A365 /* LargeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F0E2EB3BA2F0021A365 /* LargeDataModel.swift */; };
+		FE320F102EB3BA400021A365 /* VesselNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F112EB3BA400021A365 /* VesselNavigationController.swift */; };
+		FE320F122EB3BA410021A365 /* VesselHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F132EB3BA410021A365 /* VesselHomeViewController.swift */; };
+		FE320F142EB3BA420021A365 /* VesselHomeViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F152EB3BA420021A365 /* VesselHomeViewController+UI.swift */; };
+		FE320F162EB3BA430021A365 /* VesselHomeViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F172EB3BA430021A365 /* VesselHomeViewController+Actions.swift */; };
+		FE320F182EB3BA440021A365 /* VesselGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F192EB3BA440021A365 /* VesselGameViewController.swift */; };
+		FE320F1A2EB3BA450021A365 /* VesselGameViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F1B2EB3BA450021A365 /* VesselGameViewController+UI.swift */; };
+		FE320F1C2EB3BA460021A365 /* VesselGameViewController+Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F1D2EB3BA460021A365 /* VesselGameViewController+Logic.swift */; };
+		FE320F1E2EB3BA470021A365 /* VesselRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F1F2EB3BA470021A365 /* VesselRecordsViewController.swift */; };
+		FE320F202EB3BA480021A365 /* VesselRecordsViewController+UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F212EB3BA480021A365 /* VesselRecordsViewController+UI.swift */; };
+		FE320F222EB3BA490021A365 /* VesselRecordsViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F232EB3BA490021A365 /* VesselRecordsViewController+Actions.swift */; };
+		FE320F242EB3BA4A0021A365 /* VesselRulesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE320F252EB3BA4A0021A365 /* VesselRulesViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28A88D1E2EB9080300997891 /* TianksuyFirea.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = TianksuyFirea.xcframework; sourceTree = "<group>"; };
+		A43770C7E139DDA96F877871 /* Pods-Large.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Large.debug.xcconfig"; path = "Target Support Files/Pods-Large/Pods-Large.debug.xcconfig"; sourceTree = "<group>"; };
+		B85BB2F57F0EDCBAF8563BF8 /* Pods-Large.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Large.release.xcconfig"; path = "Target Support Files/Pods-Large/Pods-Large.release.xcconfig"; sourceTree = "<group>"; };
+		E6CCACB6FF296D19E96AA7C5 /* Pods_Large.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Large.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE320EDF2EB3B9FB0021A365 /* Large.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Large.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE320EFA2EB3BA1B0021A365 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE320EFB2EB3BA1B0021A365 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE320EFC2EB3BA1B0021A365 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE320EFE2EB3BA1B0021A365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE320F002EB3BA1B0021A365 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE320F022EB3BA1B0021A365 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FE320F052EB3BA1B0021A365 /* Large.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Large.xcdatamodel; sourceTree = "<group>"; };
+		FE320F0E2EB3BA2F0021A365 /* LargeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeDataModel.swift; sourceTree = "<group>"; };
+		FE320F112EB3BA400021A365 /* VesselNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselNavigationController.swift; sourceTree = "<group>"; };
+		FE320F132EB3BA410021A365 /* VesselHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselHomeViewController.swift; sourceTree = "<group>"; };
+		FE320F152EB3BA420021A365 /* VesselHomeViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VesselHomeViewController+UI.swift"; sourceTree = "<group>"; };
+		FE320F172EB3BA430021A365 /* VesselHomeViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VesselHomeViewController+Actions.swift"; sourceTree = "<group>"; };
+		FE320F192EB3BA440021A365 /* VesselGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselGameViewController.swift; sourceTree = "<group>"; };
+		FE320F1B2EB3BA450021A365 /* VesselGameViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VesselGameViewController+UI.swift"; sourceTree = "<group>"; };
+		FE320F1D2EB3BA460021A365 /* VesselGameViewController+Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VesselGameViewController+Logic.swift"; sourceTree = "<group>"; };
+		FE320F1F2EB3BA470021A365 /* VesselRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselRecordsViewController.swift; sourceTree = "<group>"; };
+		FE320F212EB3BA480021A365 /* VesselRecordsViewController+UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VesselRecordsViewController+UI.swift"; sourceTree = "<group>"; };
+		FE320F232EB3BA490021A365 /* VesselRecordsViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VesselRecordsViewController+Actions.swift"; sourceTree = "<group>"; };
+		FE320F252EB3BA4A0021A365 /* VesselRulesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselRulesViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE320EDC2EB3B9FB0021A365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1602B6CC9AB64B8C2EA33C30 /* Pods_Large.framework in Frameworks */,
+				28A88D1F2EB9080300997891 /* TianksuyFirea.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FBAB85A51C3920B567C1025 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A43770C7E139DDA96F877871 /* Pods-Large.debug.xcconfig */,
+				B85BB2F57F0EDCBAF8563BF8 /* Pods-Large.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E1650ED582F4CA4E88B4DCBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6CCACB6FF296D19E96AA7C5 /* Pods_Large.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE320ED62EB3B9FB0021A365 = {
+			isa = PBXGroup;
+			children = (
+				FE320F042EB3BA1B0021A365 /* Large */,
+				FE320EE02EB3B9FB0021A365 /* Products */,
+				7FBAB85A51C3920B567C1025 /* Pods */,
+				E1650ED582F4CA4E88B4DCBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FE320EE02EB3B9FB0021A365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE320EDF2EB3B9FB0021A365 /* Large.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE320F042EB3BA1B0021A365 /* Large */ = {
+			isa = PBXGroup;
+			children = (
+				FE320EFA2EB3BA1B0021A365 /* AppDelegate.swift */,
+				FE320EFB2EB3BA1B0021A365 /* Assets.xcassets */,
+				FE320EFC2EB3BA1B0021A365 /* Info.plist */,
+				FE320EFD2EB3BA1B0021A365 /* Large.xcdatamodeld */,
+				FE320EFF2EB3BA1B0021A365 /* LaunchScreen.storyboard */,
+				28A88D1E2EB9080300997891 /* TianksuyFirea.xcframework */,
+				FE320F012EB3BA1B0021A365 /* Main.storyboard */,
+				FE320F022EB3BA1B0021A365 /* SceneDelegate.swift */,
+				FE320F0E2EB3BA2F0021A365 /* LargeDataModel.swift */,
+				FE320F162EB3CF1D0021A365 /* Navigation */,
+				FE320F172EB3CF260021A365 /* Home */,
+				FE320F182EB3CF2F0021A365 /* Game */,
+				FE320F192EB3CF390021A365 /* Records */,
+				FE320F1A2EB3CF3E0021A365 /* Rules */,
+			);
+			path = Large;
+			sourceTree = "<group>";
+		};
+		FE320F162EB3CF1D0021A365 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				FE320F112EB3BA400021A365 /* VesselNavigationController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		FE320F172EB3CF260021A365 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FE320F132EB3BA410021A365 /* VesselHomeViewController.swift */,
+				FE320F152EB3BA420021A365 /* VesselHomeViewController+UI.swift */,
+				FE320F172EB3BA430021A365 /* VesselHomeViewController+Actions.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FE320F182EB3CF2F0021A365 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FE320F192EB3BA440021A365 /* VesselGameViewController.swift */,
+				FE320F1B2EB3BA450021A365 /* VesselGameViewController+UI.swift */,
+				FE320F1D2EB3BA460021A365 /* VesselGameViewController+Logic.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		FE320F192EB3CF390021A365 /* Records */ = {
+			isa = PBXGroup;
+			children = (
+				FE320F1F2EB3BA470021A365 /* VesselRecordsViewController.swift */,
+				FE320F212EB3BA480021A365 /* VesselRecordsViewController+UI.swift */,
+				FE320F232EB3BA490021A365 /* VesselRecordsViewController+Actions.swift */,
+			);
+			path = Records;
+			sourceTree = "<group>";
+		};
+		FE320F1A2EB3CF3E0021A365 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				FE320F252EB3BA4A0021A365 /* VesselRulesViewController.swift */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE320EDE2EB3B9FB0021A365 /* Large */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE320EF52EB3B9FE0021A365 /* Build configuration list for PBXNativeTarget "Large" */;
+			buildPhases = (
+				ECB1D704BC39DA826F2E16A8 /* [CP] Check Pods Manifest.lock */,
+				FE320EDB2EB3B9FB0021A365 /* Sources */,
+				FE320EDC2EB3B9FB0021A365 /* Frameworks */,
+				FE320EDD2EB3B9FB0021A365 /* Resources */,
+				5B97E73100448E0977FCDC19 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Large;
+			productName = Large;
+			productReference = FE320EDF2EB3B9FB0021A365 /* Large.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE320ED72EB3B9FB0021A365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					FE320EDE2EB3B9FB0021A365 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = FE320EDA2EB3B9FB0021A365 /* Build configuration list for PBXProject "Large" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE320ED62EB3B9FB0021A365;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FE320EE02EB3B9FB0021A365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE320EDE2EB3B9FB0021A365 /* Large */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE320EDD2EB3B9FB0021A365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE320F0A2EB3BA1B0021A365 /* Assets.xcassets in Resources */,
+				FE320F0C2EB3BA1B0021A365 /* LaunchScreen.storyboard in Resources */,
+				FE320F0D2EB3BA1B0021A365 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5B97E73100448E0977FCDC19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Large/Pods-Large-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Large/Pods-Large-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Large/Pods-Large-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECB1D704BC39DA826F2E16A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Large-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE320EDB2EB3B9FB0021A365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE320F0F2EB3BA2F0021A365 /* LargeDataModel.swift in Sources */,
+				FE320F062EB3BA1B0021A365 /* AppDelegate.swift in Sources */,
+				FE320F072EB3BA1B0021A365 /* Large.xcdatamodeld in Sources */,
+				FE320F082EB3BA1B0021A365 /* SceneDelegate.swift in Sources */,
+				FE320F102EB3BA400021A365 /* VesselNavigationController.swift in Sources */,
+				FE320F122EB3BA410021A365 /* VesselHomeViewController.swift in Sources */,
+				FE320F142EB3BA420021A365 /* VesselHomeViewController+UI.swift in Sources */,
+				FE320F162EB3BA430021A365 /* VesselHomeViewController+Actions.swift in Sources */,
+				FE320F182EB3BA440021A365 /* VesselGameViewController.swift in Sources */,
+				FE320F1A2EB3BA450021A365 /* VesselGameViewController+UI.swift in Sources */,
+				FE320F1C2EB3BA460021A365 /* VesselGameViewController+Logic.swift in Sources */,
+				FE320F1E2EB3BA470021A365 /* VesselRecordsViewController.swift in Sources */,
+				FE320F202EB3BA480021A365 /* VesselRecordsViewController+UI.swift in Sources */,
+				FE320F222EB3BA490021A365 /* VesselRecordsViewController+Actions.swift in Sources */,
+				FE320F242EB3BA4A0021A365 /* VesselRulesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE320EFF2EB3BA1B0021A365 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE320EFE2EB3BA1B0021A365 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FE320F012EB3BA1B0021A365 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE320F002EB3BA1B0021A365 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE320EF62EB3B9FE0021A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A43770C7E139DDA96F877871 /* Pods-Large.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Large/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Large Container";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Large.Container;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FE320EF72EB3B9FE0021A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B85BB2F57F0EDCBAF8563BF8 /* Pods-Large.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Large/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mahjong Large Container";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Large.Container;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FE320EF82EB3B9FE0021A365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE320EF92EB3B9FE0021A365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE320EDA2EB3B9FB0021A365 /* Build configuration list for PBXProject "Large" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE320EF82EB3B9FE0021A365 /* Debug */,
+				FE320EF92EB3B9FE0021A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE320EF52EB3B9FE0021A365 /* Build configuration list for PBXNativeTarget "Large" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE320EF62EB3B9FE0021A365 /* Debug */,
+				FE320EF72EB3B9FE0021A365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FE320EFD2EB3BA1B0021A365 /* Large.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FE320F052EB3BA1B0021A365 /* Large.xcdatamodel */,
+			);
+			currentVersion = FE320F052EB3BA1B0021A365 /* Large.xcdatamodel */;
+			path = Large.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FE320ED72EB3B9FB0021A365 /* Project object */;
+}
